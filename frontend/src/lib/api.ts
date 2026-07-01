@@ -96,9 +96,6 @@ export interface BookDetail {
   archived: boolean;
   favorited: boolean;
   hidden: boolean;
-  /** KOReader/Kobo synced reading progress as a percentage (0–100), or null when
-   *  not synced. */
-  kosync_progress: number | null;
 }
 
 export interface BooksPage {
